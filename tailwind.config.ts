@@ -8,18 +8,12 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      colors: {
-        backgroundButton : '#445454',
-        redEmphasis: '#BD0919',
-        textEmphasis: '#FFFFFF',
-        textDefault: '#D9D9D9',
-        gradient: 'linear-gradient(90deg, rgba(13,18,18,1) 70%, rgba(13,18,18,1) 70%, rgba(16,21,21,1) 100%)',
+      backgroundImage: {
+        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
+        'gradient-conic':
+          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
-
-      spacing: {
-        '272': '272px',
-      }
-    }
+    },
   },
   plugins: [],
 }
