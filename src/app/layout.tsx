@@ -1,6 +1,8 @@
 import './globals.css'
 import type { Metadata } from 'next'
 import localFont from '@next/font/local';
+import { Header } from './../components/Header';
+
 
 const mason = localFont({
   src: '../../public/fonts/mason-serif-regular-webfont.woff2',
@@ -19,7 +21,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={mason.className}>{children}</body>
+      <body className={mason.className}>
+        <Header/>
+        {children}
+      </body>
     </html>
   )
 }
