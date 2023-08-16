@@ -14,6 +14,10 @@ const config: Config = {
         textEmphasis: '#FFFFFF',
         textDefault: '#D9D9D9',
         gradient: 'linear-gradient(90deg, rgba(13,18,18,1) 70%, rgba(13,18,18,1) 70%, rgba(16,21,21,1) 100%)',
+      },
+
+      spacing: {
+        '272': '272px',
       }
     }
   },
